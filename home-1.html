@@ -20,6 +20,9 @@
     <!-- page name -->
     <title>Tech cat web</title>
 
+
+    <!-- Font Awesome 6 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -66,16 +69,37 @@
         <!-- menu -->
         <div class="mil-menu-frame">
             <!-- frame clone -->
-            <div class="mil-frame-top">
+           <!-- <div class="mil-frame-top">
                 <a href="home-1.html" class="mil-logo">
-                     <img src="img/photo/logo.png" alt="Company Logo" style="height: 100px;">
+                     <img src="img/photo/logo.webp" alt="Company Logo" style="height: 100px;">
                 </a>
                 <div class="mil-menu-btn">
                     <span></span>
                 </div>
             </div>
-            <!-- frame clone end -->
-            <div class="container">
+            frame clone end -->
+        <style>
+             .mil-menu-frame.mil-active .mil-frame {
+                height:150px;
+                z-index: 5  ;
+             }
+             .mil-menu-frame.mil-active #menuopt {
+                z-index: 9;
+             }
+             .mil-frame {z-index: 153; }
+             .mil-preloader {z-index: 154;}
+            .mil-menu-frame.mil-active {
+    position: fixed;
+    z-index: 151;
+    width: 100%;
+    height: 100vh;
+    opacity: 1 !important;
+    background-color: #000 !important;
+    background-image: none !important;
+    transition: none !important;
+}
+        </style>
+       <div class="container" id="menuopt">
                 <div class="mil-menu-content">
                     <div class="row">
                         <div class="col-xl-5">
@@ -83,30 +107,30 @@
                             <nav class="mil-main-menu" id="swupMenu">
                                 <ul>
                                     <li class="mil-has-children mil-active">
-                                        <a href="#.">Homepage</a>
-                                        <ul>
+                                        <a href="/home-1.html">Home</a>
+                                    <!--  <ul>
                                             <li><a href="home-1.html">Landing page</a></li>
                                             <li><a href="home-2.html">Personal</a></li>
                                             <li><a href="portfolio-3.html">Portfolio slider</a></li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
                                     <li class="mil-has-children">
-                                        <a href="#.">Portfolio</a>
-                                        <ul>
+                                        <a href="/portfolio-1.html">Portfolio</a>
+                                      <!--  <ul>
                                             <li><a href="portfolio-1.html">Grid type 1</a></li>
                                             <li><a href="portfolio-2.html">Grid type 2</a></li>
                                             <li><a href="portfolio-3.html">Slider</a></li>
-                                        </ul>
+                                        </ul>  -->
                                     </li>
                                     <li class="mil-has-children">
-                                        <a href="#.">Services</a>
-                                        <ul>
+                                        <a href="/services.html">Services</a>
+                                     <!--   <ul>
                                             <li><a href="services.html">Services List</a></li>
                                             <li><a href="service.html">Single service</a></li>
-                                        </ul>
+                                        </ul>  -->
                                     </li>
                                     <li class="mil-has-children">
-                                        <a href="#.">Newsletter</a>
+                                        <a href="/blog.html">Blog</a>
                                         <ul>
                                             <li><a href="blog.html">Blog List</a></li>
                                             <li><a href="publication.html">Publication</a></li>
@@ -166,18 +190,18 @@
 
                                         <div class="col-lg-4 mil-mb-60">
 
-                                            <h6 class="mil-muted mil-mb-30">Canada</h6>
+                                            <h6 class="mil-muted mil-mb-30">Bharat</h6>
 
-                                            <p class="mil-light-soft mil-up">71 South Los Carneros Road, California <span class="mil-no-wrap">+51 174 705 812</span></p>
+                                            <p class="mil-light-soft mil-up">office no. 413, Shreem Maxima, beside National handloom, opp. Angel Arcade, Nikol, Ahmedabad, Gujarat 382415<span class="mil-no-wrap"><br>+91 94290 22214</span></p>
 
                                         </div>
-                                        <div class="col-lg-4 mil-mb-60">
+                                       <!-- <div class="col-lg-4 mil-mb-60">
 
                                             <h6 class="mil-muted mil-mb-30">Germany</h6>
 
                                             <p class="mil-light-soft">Leehove 40, 2678 MC De Lier, Netherlands <span class="mil-no-wrap">+31 174 705 811</span></p>
 
-                                        </div>
+                                        </div>-->   
                                     </div>
                                 </div>
                             </div>
@@ -185,7 +209,30 @@
                         </div>
                     </div>
                 </div>
+            </div> 
+
+             <!-- frame -->
+        <div class="mil-frame">
+            <!-- <div class="mil-frame-top">
+                 <a href="home-1.html" class="mil-logo">
+                     <img src="img/photo/logo.webp" alt="Company Logo" style="height: 100px; filter: none; mix-blend-mode: normal; opacity: 1;">
+                </a>
+                <div class="mil-menu-btn">
+                    <span></span>
+                </div>
+            </div> -->
+            <div class="mil-frame-bottom">
+                <div class="mil-current-page"></div>
+                <div class="mil-back-to-top">
+                    <a href="#top" class="mil-link mil-dark mil-arrow-place">
+                        <span>Back to top</span>
+                    </a>
+                </div>
             </div>
+        </div>
+        <!-- frame end -->
+
+            
         </div>
         <!-- menu -->
         
@@ -196,7 +243,9 @@
         <!-- frame -->
         <div class="mil-frame">
             <div class="mil-frame-top">
-                <a href="home-1.html" class="mil-logo">A.</a>
+                 <a href="/home-1.html" class="mil-logo">
+                     <img src="img/photo/logo.webp" alt="Company Logo" style="height: 100px;">
+                </a>
                 <div class="mil-menu-btn">
                     <span></span>
                 </div>
@@ -239,7 +288,7 @@
                                     </div>
                                 </div>
 
-                                <a href="services.html" class="mil-button mil-arrow-place mil-btn-space">
+                                <a href="service.html" class="mil-button mil-arrow-place mil-btn-space">
                                     <span>What we do</span>
                                 </a>
 
@@ -342,8 +391,8 @@
                                 <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
 
                                     <a href="service.html" class="mil-service-card-sm mil-up">
-                                        <h5 class="mil-muted mil-mb-30">Branding and <br>Identity Design</h5>
-                                        <p class="mil-light-soft mil-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                                        <h5 class="mil-muted mil-mb-30">Web Design</h5>
+                                        <p class="mil-light-soft mil-mb-30">"Brings Your Brand to Life" Create attractive, user-friendly websites that grab attention and promote meaningful engagement.</p>
                                         <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
                                     </a>
 
@@ -669,14 +718,9 @@
                             <div class="row justify-content-between">
                                 <div class="col-md-4 col-lg-4 mil-mb-60">
 
-                                    <div class="mil-muted mil-logo mil-up mil-mb-30">Ashley.</div>
+                                    <div class="mil-muted mil-logo mil-up mil-mb-30"> <a href="/home-1.html">Tech Cat Web.</a></div>
 
-                                    <p class="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
-
-                                    <form class="mil-subscribe-form mil-up">
-                                        <input type="text" placeholder="Enter our email">
-                                        <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
-                                    </form>
+                                    <p class="mil-light-soft mil-up mil-mb-30">We turn ideas into digital success. Whether you’re a startup or a growing brand, we bring your business vision to life with stunning websites, smart marketing strategies, and creative design solutions. Experience a professional, friendly environment where design meets innovation—and results speak for themselves.</p>
 
                                 </div>
                                 <div class="col-md-7 col-lg-6">
@@ -686,19 +730,19 @@
                                             <nav class="mil-footer-menu mil-mb-60">
                                                 <ul>
                                                     <li class="mil-up mil-active">
-                                                        <a href="home-1.html">Home</a>
+                                                        <a href="/home-1.html">Home</a>
                                                     </li>
                                                     <li class="mil-up">
-                                                        <a href="portfolio-1.html">Portfolio</a>
+                                                        <a href="/portfolio-1.html">Portfolio</a>
                                                     </li>
                                                     <li class="mil-up">
-                                                        <a href="services.html">Services</a>
+                                                        <a href="/services.html">Services</a>
                                                     </li>
                                                     <li class="mil-up">
-                                                        <a href="contact.html">Contact</a>
+                                                        <a href="/contact.html">Contact</a>
                                                     </li>
                                                     <li class="mil-up">
-                                                        <a href="blog.html">Blog</a>
+                                                        <a href="/blog.html">Blog</a>
                                                     </li>
                                                 </ul>
                                             </nav>
@@ -707,10 +751,10 @@
                                         <div class="col-md-6 col-lg-5">
 
                                             <ul class="mil-menu-list mil-up mil-mb-60">
-                                                <li><a href="#." class="mil-light-soft">Privacy Policy</a></li>
-                                                <li><a href="#." class="mil-light-soft">Terms and conditions</a></li>
-                                                <li><a href="#." class="mil-light-soft">Cookie Policy</a></li>
-                                                <li><a href="#." class="mil-light-soft">Careers</a></li>
+                                                <li><a href="#." class="mil-light-soft">Website Design & development</a></li>
+                                                <li><a href="#." class="mil-light-soft">Digital Marketing</a></li>
+                                                <li><a href="#." class="mil-light-soft">App Development</a></li>
+                                                <li><a href="#." class="mil-light-soft">3D Animation</a></li>
                                             </ul>
 
                                         </div>
@@ -725,18 +769,18 @@
 
                                         <div class="col-md-6 col-lg-5 mil-mb-60">
 
-                                            <h6 class="mil-muted mil-up mil-mb-30">Canada</h6>
+                                            <h6 class="mil-muted mil-up mil-mb-30">Bharat</h6>
 
-                                            <p class="mil-light-soft mil-up">71 South Los Carneros Road, California <span class="mil-no-wrap">+51 174 705 812</span></p>
+                                            <p class="mil-light-soft mil-up">Office no. 413, Shreem Maxima, beside National handloom, opp. Angel Arcade, Nikol, Ahmedabad, Gujarat-382415. <span class="mil-no-wrap"><br>+91 94290 22214</span></p>
 
-                                        </div>
-                                        <div class="col-md-6 col-lg-5 mil-mb-60">
+                                    </div>
+                                      <!--  <div class="col-md-6 col-lg-5 mil-mb-60">
 
                                             <h6 class="mil-muted mil-up mil-mb-30">Germany</h6>
 
                                             <p class="mil-light-soft mil-up">Leehove 40, 2678 MC De Lier, Netherlands <span class="mil-no-wrap">+31 174 705 811</span></p>
 
-                                        </div>
+                                        </div>  -->
                                     </div>
 
                                 </div>
@@ -748,10 +792,16 @@
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
+                                                <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>                                                
+                                            </ul>
+                                            <ul class="mil-social-icons mil-up">
+                                                <li><a href="https://instagram.com/" target="https://www.instagram.com/tech_cat_web?igsh=Z2ZnbjR2dHBhemdl" class="social-icon"> <i class="fa-brands fa-instagram"></i></a></li>
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
+                                                <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
+                                                <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>                                                
                                             </ul>
                                         </div>
-                                        <p class="mil-light-soft mil-up">© Copyright 2023 - Mil. All Rights Reserved.</p>
+                                        <p class="mil-light-soft mil-up">© Copyright 2025 -All Rights Reserved.</p>
                                     </div>
 
                                 </div>
